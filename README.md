@@ -1,4 +1,4 @@
-# wagner-labs.com
+# wagner-labs
 
 ## Project setup
 ```
