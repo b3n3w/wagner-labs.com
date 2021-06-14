@@ -9,15 +9,13 @@
           contain
           height="200"
         />
-        <div class="font-weight-thin">JUSTIN FABISCH</div>
+        <div class="font-weight-thin">BENEDIKT WAGNER</div>
       </v-col>
       <v-col>
-        <v-btn icon href="https://www.linkedin.com/in/benedikt-wagner-808a101a9/" 
-          ><v-icon left x-large>mdi-linkedin</v-icon></v-btn
-        >
+        <v-btn icon href="https://www.linkedin.com/in/benedikt-wagner-808a101a9/" >
+        <v-icon left x-large>mdi-linkedin</v-icon></v-btn>
         <v-btn icon href="https://github.com/b3n3w" target="_blank">
-          <v-icon right x-large>mdi-github</v-icon></v-btn
-        >
+          <v-icon right x-large>mdi-github</v-icon></v-btn>
       </v-col>
     </v-row>
   </v-container>
