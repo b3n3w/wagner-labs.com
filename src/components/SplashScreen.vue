@@ -9,7 +9,7 @@
           contain
           height="200"
         />
-        <div class="font-weight-thin">BENEDIKT WAGNER</div>
+        <div class="font-weight-thin">JUSTIN FABISCH</div>
       </v-col>
       <v-col>
         <v-btn icon href="https://www.linkedin.com/in/benedikt-wagner-808a101a9/" 
