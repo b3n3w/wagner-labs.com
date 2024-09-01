@@ -4,10 +4,10 @@
 </script>
 
 <main>
-	<div class="flex justify-center text-center items-center">
+	<div class="flex h-screen justify-center text-center items-center">
 		<div class="flex flex-col">
 			<div class="flex flex-col gap-5">
-				<h1 class="text-3xl uppercase font-light">Build in progress</h1>
+				<h1 class="text-3xl uppercase font-light">Wagner-Labs</h1>
 				<img alt="Wagner-Lab Logo" src={logo} />
 				<p class="text-xl font-thin">BENEDIKT WAGNER</p>
 			</div>
