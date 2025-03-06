@@ -1,6 +1,16 @@
 <script>
-	import { mdiEmail, mdiPhone, mdiMapMarker } from '@mdi/js';
+	import { mdiEmail} from '@mdi/js';
 </script>
+
+<svelte:head>
+	<title>Impressum | Benedikt Wagner</title>
+	<meta name="description" content="Impressum for Benedikt Wagner" />
+	<meta name="keywords" content="Impressum, Benedikt Wagner, DevOps Engineer" />
+	<meta name="author" content="Benedikt Wagner" />
+	<meta name="robots" content="index, follow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+</svelte:head>
 
 <section id="impressum" class="bg-gray-900 px-8 py-16 text-left md:px-16">
 	<div class="container mx-auto text-center">
