@@ -8,7 +8,7 @@
 			<div class="mb-8 text-center md:mb-0 md:w-1/2 md:text-left">
 				<h1 class="mb-4 text-4xl font-bold md:text-5xl lg:text-6xl">Benedikt Wagner</h1>
 				<h2 class="mb-4 text-xl font-semibold md:text-2xl">
-					Something in between DevOps and your typical nerd
+					Something in between DevOps and your typical Nerd
 				</h2>
 				<button
 					class="rounded-full bg-[rgb(49,9,100)] px-6 py-2 text-white transition-colors duration-300 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-800"
