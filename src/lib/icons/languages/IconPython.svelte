@@ -1,7 +1,12 @@
-<script>
-	// teenyicons:python-solid
-	export let size = '20';
-	export let color = 'currentColor';
+<script lang="ts">
+	
+	interface Props {
+		// teenyicons:python-solid
+		size?: string;
+		color?: string;
+	}
+
+	let { size = '20', color = 'currentColor' }: Props = $props();
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill={color} viewBox="0 0 15 15"

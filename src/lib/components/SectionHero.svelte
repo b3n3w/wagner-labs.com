@@ -12,7 +12,7 @@
 				</h2>
 				<button
 					class="rounded-full bg-[rgb(49,9,100)] px-6 py-2 text-white transition-colors duration-300 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-800"
-					on:click={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+					onclick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
 				>
 					Contact Me
 				</button>
