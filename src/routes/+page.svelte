@@ -1,10 +1,10 @@
 <script>
-	import HeroSection from '$lib/components/SectionHero.svelte';
+	import HeroSection from '$lib/components/sections/SectionHero.svelte';
 	import AboutSection from '$lib/components/sections/SectionAbout.svelte';
-	import SkillSection from '$lib/components/SectionSkills.svelte';
-	import ExperienceSection from '$lib/components/SectionExperience.svelte';
-	import ProjectsSection from '$lib/components/SectionProjects.svelte';
-	import ContactSection from '$lib/components/SectionContact.svelte';
+	import SkillSection from '$lib/components/sections/SectionSkills.svelte';
+	import ExperienceSection from '$lib/components/sections/SectionExperience.svelte';
+	import ProjectsSection from '$lib/components/sections/SectionProjects.svelte';
+	import ContactSection from '$lib/components/sections/SectionContact.svelte';
 </script>
 
 <svelte:head>

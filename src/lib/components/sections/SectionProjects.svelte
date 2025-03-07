@@ -27,7 +27,7 @@
 								src="https://github.com/Ditectrev/CloudMaster-Swift/blob/main/Assets/CM_White.png?raw=true"
 								alt="CloudMaster Swift Logo"
 								class="h-full w-full object-contain"
-								on:error={handleImageError}
+								onerror={handleImageError}
 							/>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 							src={cloudMasterSwift}
 							alt="CloudMaster Swift Screenshot"
 							class="h-auto w-full transform rounded-xl transition-transform duration-700 hover:translate-y-[-10px]"
-							on:error={handleImageError}
+							onerror={handleImageError}
 						/>
 					</div>
 				</div>
@@ -82,7 +82,7 @@
 							src="/images/project-b.png"
 							alt="Data Visualization Dashboard Logo"
 							class="h-full w-full object-contain"
-							on:error={handleImageError}
+							onerror={handleImageError}
 						/>
 					</div>
 				</div>
@@ -125,7 +125,7 @@
 							src="/images/project-b.png"
 							alt="Data Visualization Dashboard Screenshot"
 							class="h-auto w-full transform rounded-xl shadow-2xl transition-transform duration-700 hover:translate-y-[-10px]"
-							on:error={handleImageError}
+							onerror={handleImageError}
 						/>
 					</div>
 				</div>
@@ -142,7 +142,7 @@
 							src="/images/project-c.png"
 							alt="Machine Learning API Logo"
 							class="h-full w-full object-contain"
-							on:error={handleImageError}
+							onerror={handleImageError}
 						/>
 					</div>
 				</div>
@@ -185,7 +185,7 @@
 							src="/images/project-c.png"
 							alt="Machine Learning API Screenshot"
 							class="h-auto w-full transform rounded-xl shadow-2xl transition-transform duration-700 hover:translate-y-[-10px]"
-							on:error={handleImageError}
+							onerror={handleImageError}
 						/>
 					</div>
 				</div>

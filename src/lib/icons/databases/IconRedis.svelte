@@ -1,6 +1,10 @@
-<script>
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	interface Props {
+		size?: string;
+		color?: string;
+	}
+
+	let { size = '24', color = 'currentColor' }: Props = $props();
 </script>
 
 <!-- akar-icons:postgresql-fill -->

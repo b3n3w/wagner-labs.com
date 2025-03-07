@@ -1,7 +1,12 @@
-<script>
-	// tabler:brand-golang
-	export let size = '24';
-	export let color = 'currentColor';
+<script lang="ts">
+	
+	interface Props {
+		// tabler:brand-golang
+		size?: string;
+		color?: string;
+	}
+
+	let { size = '24', color = 'currentColor' }: Props = $props();
 </script>
 
 <svg

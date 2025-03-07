@@ -1,7 +1,7 @@
 <script>
 	import { ChevronDown, ChevronUp } from 'lucide-svelte';
 	import { slide, fade } from 'svelte/transition';
-	import Skill from './Skill.svelte';
+	import Skill from '$lib/components/Skill.svelte';
 
 	// infrastructure
 	import IconAWS from '$lib/icons/infrastructure/IconAWS.svelte';
@@ -23,7 +23,7 @@
 	import IconHelm from '$lib/icons/tools/IconHelm.svelte';
 	import IconFigma from '$lib/icons/tools/IconFigma.svelte';
 
-	let showMore = false;
+	let showMore = $state(false);
 
 	const skills = {
 		languages: [
@@ -54,6 +54,8 @@
 	function toggleShowMore() {
 		showMore = !showMore;
 	}
+
+	const SvelteComponent = $derived(showMore ? ChevronUp : ChevronDown);
 </script>
 
 <section id="skills" class="justify-center px-8 py-16 text-center md:px-16">
@@ -101,11 +103,11 @@
 		{/if}
 
 		<button
-			on:click={toggleShowMore}
+			onclick={toggleShowMore}
 			class="mx-auto flex flex-col items-center justify-center space-x-2 text-lg font-light"
 		>
 			<span>{showMore ? 'Show Less' : 'Show More'}</span>
-			<svelte:component this={showMore ? ChevronUp : ChevronDown} size={20} />
+			<SvelteComponent size={20} />
 		</button>
 	</div>
 </section>

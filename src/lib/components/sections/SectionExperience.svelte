@@ -53,13 +53,15 @@
 		}
 	];
 
-	let showMore = false;
+	let showMore = $state(false);
 
-	$: displayedJobs = showMore ? jobExperiences : jobExperiences.slice(0, 3);
+	let displayedJobs = $derived(showMore ? jobExperiences : jobExperiences.slice(0, 3));
 
 	function toggleShowMore() {
 		showMore = !showMore;
 	}
+
+	const SvelteComponent = $derived(showMore ? ChevronUp : ChevronDown);
 </script>
 
 <section id="experience" class="bg-gray-900 px-4 py-16 text-gray-300">
@@ -124,11 +126,11 @@
 		{/if}
 		<div class="flex justify-center">
 			<button
-				on:click={toggleShowMore}
+				onclick={toggleShowMore}
 				class="mx-auto flex flex-col items-center justify-center space-x-2 text-lg font-light"
 			>
 				<span>{showMore ? 'Show Less' : 'Show More'}</span>
-				<svelte:component this={showMore ? ChevronUp : ChevronDown} size={20} />
+				<SvelteComponent size={20} />
 			</button>
 		</div>
 	</div>

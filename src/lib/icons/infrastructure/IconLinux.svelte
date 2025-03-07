@@ -1,6 +1,11 @@
-<script>
-	// fa-brands:linux
-	export let size = '24';
+<script lang="ts">
+	
+	interface Props {
+		// fa-brands:linux
+		size?: string;
+	}
+
+	let { size = '24' }: Props = $props();
 </script>
 
 <svg
