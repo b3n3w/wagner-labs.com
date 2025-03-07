@@ -60,7 +60,7 @@
 
 <section id="skills" class="justify-center px-8 py-16 text-center md:px-16">
 	<div class="container mx-auto max-w-6xl px-4">
-		<h2 class="mb-8 text-3xl font-bold tracking-wider">My Skills</h2>
+		<h2 class="mb-12 text-4xl font-bold tracking-wider text-white">Skills</h2>
 
 		<section id="infrastructure" class="mb-4">
 			<h3 class="mb-4 text-center text-2xl font-bold">Infrastructure</h3>

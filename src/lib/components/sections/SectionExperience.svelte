@@ -75,17 +75,22 @@
 				<div class="h-0.5 w-12 bg-pink-500"></div>
 			</div>
 		</div>
-		<div class="relative border-l-2 border-sky-500">
+		<div class="relative mx-auto max-w-3xl">
+			<div
+				class="absolute left-0 top-0 h-full border-l-2 border-sky-500 md:left-1/2 md:-ml-1"
+			></div>
 			{#each displayedJobs as exp, index}
-				<div class="mb-12 ml-6" transition:fade={{ duration: 100 }}>
+				<div class="mb-12 ml-6 md:ml-0 md:pl-10 md:text-left" transition:fade={{ duration: 100 }}>
 					<span
-						class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-purple-400 ring-8 ring-gray-900"
+						class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-purple-400 ring-8 ring-gray-900 md:left-1/2 md:-ml-3"
 						class:glow={exp.current}
 					>
 						<span class="h-3 w-3 rounded-full bg-purple-600"></span>
 					</span>
 					<div>
-						<p class="mb-1 text-sm font-semibold text-gray-500">{exp.year}</p>
+						<p class="mb-1 text-sm font-semibold text-gray-500" class:text-purple-500={exp.current}>
+							{exp.year}
+						</p>
 						<h3 class="mb-1 text-xl font-bold text-white">{exp.position}</h3>
 						<p class="mb-2 text-lg text-gray-400">{exp.company}</p>
 						<p class="mb-4 text-gray-400">{exp.period}</p>
@@ -104,11 +109,17 @@
 						<div class="h-0.5 w-12 bg-pink-500"></div>
 					</div>
 				</div>
-				<div class="relative border-l-2 border-sky-500">
+				<div class="relative mx-auto max-w-3xl">
+					<div
+						class="absolute left-0 top-0 h-full border-l-2 border-sky-500 md:left-1/2 md:-ml-1"
+					></div>
 					{#each internships as intern}
-						<div class="mb-12 ml-6" transition:fade={{ duration: 350 }}>
+						<div
+							class="mb-12 ml-6 md:ml-0 md:pl-10 md:text-left"
+							transition:fade={{ duration: 350 }}
+						>
 							<span
-								class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-purple-400 ring-8 ring-gray-900"
+								class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-purple-400 ring-8 ring-gray-900 md:left-1/2 md:-ml-3"
 							>
 								<span class="h-3 w-3 rounded-full bg-purple-600"></span>
 							</span>
