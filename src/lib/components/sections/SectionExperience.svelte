@@ -4,7 +4,7 @@
 
 	const jobExperiences = [
 		{
-			year: '2023',
+			year: 'since 2023',
 			period: 'Aug. 2023–Present',
 			company: 'Self-employed',
 			position: 'Freelancing - DevOps Engineer',
@@ -13,7 +13,7 @@
 			current: true
 		},
 		{
-			year: '2023',
+			year: 'since 2023',
 			period: 'Aug. 2023–Present',
 			company: 'hoch.rein IT Solutions GmbH',
 			position: 'Part-time DevOps Engineer',

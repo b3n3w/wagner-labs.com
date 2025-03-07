@@ -10,6 +10,7 @@
 		<div class="space-x-4 text-white">
 			<a href="/#about" class="transition-colors duration-300 hover:text-purple-500">About Me</a>
 			<a href="/#skills" class="transition-colors duration-300 hover:text-purple-500">Skills</a>
+			<a href="/#projects" class="transition-colors duration-300 hover:text-purple-500">Projects</a>
 			<a href="/#contact" class="transition-colors duration-300 hover:text-purple-500">Contact</a>
 		</div>
 	</div>
